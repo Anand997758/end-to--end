@@ -1,0 +1,10 @@
+ami                     = "ami-0b0dcb5067f052a63"
+ubuntu-ami              = "ami-08c40ec9ead489470"
+micro-instance_type           = "t3.micro"
+large-instance_type = "t2.large"
+medium-instance_type = "t2.medium"
+key_name                = "anand"
+public_subnet        = ["10.0.0.0/24", "10.0.1.0/24", "10.0.2.0/24"]
+private_subnet       = ["10.0.3.0/24", "10.0.4.0/24", "10.0.5.0/24"]
+data_subnet          = ["10.0.6.0/24", "10.0.7.0/24", "10.0.8.0/24"]
+azs                  = ["us-east-1a", "us-east-1b", "us-east-1c"]

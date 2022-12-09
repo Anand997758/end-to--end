@@ -1,0 +1,10 @@
+variable "ami" {}
+variable "ubuntu-ami" {}
+variable "micro-instance_type" {}
+variable "large-instance_type" {}
+variable "medium-instance_type" {}
+variable "key_name" {}
+variable "public_subnet" {}
+variable "private_subnet" {}
+variable "data_subnet" {}
+variable "azs" {}
